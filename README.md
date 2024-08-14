@@ -1,1 +1,1 @@
-# SMU_Bootcamp_Capstone_project
+# SMU_Bootcamp_Moms_Against_Wyoming
