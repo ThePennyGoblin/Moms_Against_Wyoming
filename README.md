@@ -1,1 +1,2 @@
-# SMU_Bootcamp_Moms_Against_Wyoming
+# Moms_Against_Wyoming
+![alt text](GitCommands.png)
