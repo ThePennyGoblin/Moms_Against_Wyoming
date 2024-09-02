@@ -2,7 +2,7 @@
 ![alt text](GitCommands.png)
 
 # Get/Cleaning Data
-- [ ] injury data
+- [x] injury data
 - [ ] player data
 - [ ] other data
 
