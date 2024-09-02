@@ -12,7 +12,7 @@
 - [ ] reading the data
 
 # Use Findings To make Graphs
-- [ ] 
+- [ ] placeholder
 
 # Make Conclusions
-- [ ]
+- [ ] placeholder
