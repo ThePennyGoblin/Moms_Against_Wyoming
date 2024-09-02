@@ -2,9 +2,9 @@
 ![alt text](GitCommands.png)
 
 # Get/Cleaning Data
-    [] injury data
-    [] player data
-    [] other data
+    - [] injury data
+    - [] player data
+    - [] other data
 
 # Machine/Deep Learning Model
     [] creating the model
