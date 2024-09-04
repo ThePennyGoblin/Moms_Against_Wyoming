@@ -1,0 +1,150 @@
+# Importing necessary libraries for data manipulation and visualization
+
+# Data manipulation and analysis
+import pandas as pd
+import numpy as np
+
+# For handling dates and time
+from datetime import datetime
+
+# Data visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# For interactive visualization (optional for future use)
+import plotly.express as px
+import plotly.graph_objs as go
+
+import pandas as pd
+
+# Load the file with ISO-8859-1 encoding to handle non-UTF-8 characters
+file_path = '/Users/jenleemcnew/Library/Mobile Documents/com~apple~CloudDocs/SMU BC Classwork/Project 4/Cleaned_CombinedBPI.csv'
+data = pd.read_csv(file_path, encoding='ISO-8859-1')
+
+# Display the first few rows to verify successful loading
+print(data.head())
+
+
+# Step 1: Data Preprocessing
+
+# Convert relevant date columns to datetime format
+date_columns = ['Injury / Surgery Date', 'IL Retro Date', 'Eligible to Return', 'Return Date']
+for col in date_columns:
+    data[col] = pd.to_datetime(data[col], errors='coerce')
+
+# Handle missing values in injury-related columns (as needed, leaving it open for now)
+
+# Step 2: Feature Engineering - Calculating Injury Duration
+
+# Calculate injury duration by subtracting 'Injury / Surgery Date' from 'Return Date'
+data['Injury Duration'] = (data['Return Date'] - data['Injury / Surgery Date']).dt.days
+
+# Step 3: Injury Trend Analysis
+
+# Extract the year from the 'Injury / Surgery Date' to group by year
+data['Injury Year'] = data['Injury / Surgery Date'].dt.year
+
+# Group by year and count the number of injuries for each year
+injuries_over_time = data.groupby('Injury Year').size()
+
+# Plot the number of injuries over time
+plt.figure(figsize=(10, 6))
+injuries_over_time.plot(kind='line', marker='o', color='blue')
+plt.title('Number of Injuries Over Time')
+plt.xlabel('Year')
+plt.ylabel('Number of Injuries')
+plt.grid(True)
+plt.show()
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Ensure 'player_age' and 'Injury / Surgery Date' are available
+# Filter out rows where injury data is missing
+injured_players = data[~data['Injury / Surgery Date'].isnull()]
+
+# Optional: Create age groups (bins) for analysis
+bins = [20, 25, 30, 35, 40, 45]  # Define age groups
+labels = ['20-25', '26-30', '31-35', '36-40', '41-45']  # Labels for the age groups
+injured_players['Age Group'] = pd.cut(injured_players['player_age'], bins=bins, labels=labels, include_lowest=True)
+
+# Step 1: Count injuries by age group or exact age
+injuries_by_age_group = injured_players.groupby('Age Group').size()
+injuries_by_exact_age = injured_players.groupby('player_age').size()
+
+# Step 2: Visualize injuries by age group
+plt.figure(figsize=(10, 6))
+injuries_by_age_group.plot(kind='bar', color='blue')
+plt.title('Number of Injuries by Age Group')
+plt.xlabel('Age Group')
+plt.ylabel('Number of Injuries')
+plt.grid(True)
+plt.show()
+
+# Alternatively, visualize injuries by exact age
+plt.figure(figsize=(10, 6))
+injuries_by_exact_age.plot(kind='bar', color='green')
+plt.title('Number of Injuries by Exact Age')
+plt.xlabel('Age')
+plt.ylabel('Number of Injuries')
+plt.grid(True)
+plt.show()
+
+import matplotlib.pyplot as plt
+
+# Step 1: Filter players with injuries
+injured_players_by_position = data[~data['Injury / Surgery Date'].isnull() & data['Pos'].notnull()]
+
+# Step 2: Count injuries by position
+injuries_by_position = injured_players_by_position.groupby('Pos').size()
+
+# Step 3: Visualize injuries by position
+plt.figure(figsize=(12, 6))
+injuries_by_position.plot(kind='bar', color='skyblue')
+plt.title('Number of Injuries by Position')
+plt.xlabel('Position')
+plt.ylabel('Number of Injuries')
+plt.grid(True)
+plt.show()
+
+# Step 4: Analyze injury duration by position
+avg_duration_by_position = injured_players_by_position.groupby('Pos')['Injury Duration'].mean()
+
+# Step 5: Visualize average injury duration by position
+plt.figure(figsize=(12, 6))
+avg_duration_by_position.plot(kind='bar', color='orange')
+plt.title('Average Injury Duration by Position')
+plt.xlabel('Position')
+plt.ylabel('Average Injury Duration (Days)')
+plt.grid(True)
+plt.show()
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Load the dataset from a local CSV file
+file_path = '/Users/jenleemcnew/Library/Mobile Documents/com~apple~CloudDocs/SMU BC Classwork/Project 4/Cleaned_CombinedBPI.csv'  # Make sure this path points to your file
+new_data = pd.read_csv(file_path, encoding='ISO-8859-1')
+
+# Step 1: Identify and filter out rows with negative injury durations
+negative_duration_entries = injured_players_by_position[injured_players_by_position['Injury Duration'] < 0]
+print(negative_duration_entries[['Pos', 'Injury / Surgery Date', 'Return Date', 'Injury Duration']])
+
+# Step 2: Remove rows with negative durations
+injured_players_by_position = injured_players_by_position[injured_players_by_position['Injury Duration'] >= 0]
+
+# Step 3: Recalculate the average injury duration by position and replot the chart
+avg_duration_by_position = injured_players_by_position.groupby('Pos')['Injury Duration'].mean()
+
+# Step 4: Visualize corrected average injury duration by position
+plt.figure(figsize=(12, 6))
+avg_duration_by_position.plot(kind='bar', color='orange')
+plt.title('Average Injury Duration by Position (Corrected)')
+plt.xlabel('Position')
+plt.ylabel('Average Injury Duration (Days)')
+plt.grid(True)
+plt.show()
+
+
+
+
