@@ -1,2 +1,1 @@
 # Moms_Against_Wyoming
-![alt text](GitCommands.png)
