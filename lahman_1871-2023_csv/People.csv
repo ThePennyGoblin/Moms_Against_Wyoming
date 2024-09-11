@@ -1,4 +1,4 @@
-ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deathYear,deathMonth,deathDay,deathCountry,deathState,deathCity,nameFirst,nameLast,nameGiven,weight,height,bats,throws,debut,bbrefID,finalGame,retroID
+ aID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deathYear,deathMonth,deathDay,deathCountry,deathState,deathCity,nameFirst,nameLast,nameGiven,weight,height,bats,throws,debut,bbrefID,finalGame,retroID
 1,aardsda01,1981,12,27,Denver,USA,CO,,,,,,,David,Aardsma,David Allan,215,75,R,R,2004-04-06,aardsda01,2015-08-23,aardd001
 2,aaronha01,1934,2,5,Mobile,USA,AL,2021,1,22,USA,GA,Atlanta,Hank,Aaron,Henry Louis,180,72,R,R,1954-04-13,aaronha01,1976-10-03,aaroh101
 3,aaronto01,1939,8,5,Mobile,USA,AL,1984,8,16,USA,GA,Atlanta,Tommie,Aaron,Tommie Lee,190,75,R,R,1962-04-10,aaronto01,1971-09-26,aarot101
@@ -20676,7 +20676,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20675,zwilldu01,1888,11,2,St. Louis,USA,MO,1978,3,27,USA,CA,La Crescenta,Dutch,Zwilling,Edward Harrison,160,66,L,L,1910-08-14,zwilldu01,1916-07-12,zwild101
 20676,zychto01,1990,8,7,Monee,USA,IL,,,,,,,Tony,Zych,Anthony Aaron,190,75,R,R,2015-09-04,zychto01,2017-08-19,zycht001
 20677,leahyky01,1997,6,4,Boulder,USA,CO,,,,,,,Kyle,Leahy,Kyle Yandow,200,77,B,R,2003-07-07,leahyky01,2023-07-20,leahk001
-20678,colasos01,1998,9,17,La Habana,Cuba,La Habana,,,,,,,Oscar,Colás,Oscar Luis,220,71,L,L,2023-03-30,colasos01,2023-09-10,colao001
+20678,colasos01,1998,9,17,La Habana,Cuba,La Habana,,,,,,,Oscar,Colï¿½s,Oscar Luis,220,71,L,L,2023-03-30,colasos01,2023-09-10,colao001
 20679,englema01,1999,11,1,Forney,USA,TX,,,,,,,Mason,Englert,Mason Alexander,206,76,B,R,2023-03-30,englema01,2023-07-22,englm001
 20680,lukesna01,1994,7,12,Portland,USA,OR,,,,,,,Nathan,Lukes,Nathan Donald,180,71,L,R,2023-03-30,lukesna01,2023-09-13,luken001
 20681,nodary01,1996,3,30,Volo,USA,IL,,,,,,,Ryan,Noda,Ryan Anthony,217,75,L,L,2023-03-30,nodary01,2023-10-01,nodar001
@@ -20697,7 +20697,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20696,wiemejo01,1999,2,11,Sylvania,USA,OH,,,,,,,Joey,Wiemer,Joseph Daryl,220,76,R,R,2023-04-01,wiemejo01,2023-10-04,wiemj001
 20697,britojh01,1998,2,17,Puerto Plata,D.R.,Puerto Plata,,,,,,,Jhony,Brito,Jhony Rafael,210,74,R,R,2023-04-02,britojh01,2023-10-01,britj003
 20698,herriti01,1996,10,8,Munster,USA,IN,,,,,,,Tim,Herrin,Timothy Edward,230,78,L,L,2023-04-02,herriti01,2023-08-23,herrt002
-20699,salazce01,1996,3,15,Hermosillo,Mexico,Sonora,,,,,,,César,Salazar,César,185,69,L,R,2023-04-02,salazce01,2023-06-19,salac001
+20699,salazce01,1996,3,15,Hermosillo,Mexico,Sonora,,,,,,,Cï¿½sar,Salazar,Cï¿½sar,185,69,L,R,2023-04-02,salazce01,2023-06-19,salac001
 20700,sengako01,1993,1,30,Gamagori,Japan,Aichi,,,,,,,Kodai,Senga,Kodai,202,73,L,R,2023-04-02,sengako01,2023-09-27,sengk001
 20701,shustja01,1998,8,3,New Bedford,USA,MA,,,,,,,Jared,Shuster,Jared Craig,210,75,L,L,2023-04-02,shustja01,2023-09-16,shusj001
 20702,lindgje01,1996,9,17,Champaign,USA,IL,,,,,,,Jeff,Lindgren,Jeff Thomas,200,73,R,R,2023-04-03,lindgje01,2023-07-06,lindj006
@@ -20710,7 +20710,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20709,julieed01,1999,4,30,Quebec,CAN,QC,,,,,,,Edouard,Julien,Edouard,195,72,L,R,2023-04-12,julieed01,2023-10-11,julie001
 20710,bristbr01,1994,11,1,West Monroe,USA,LA,,,,,,,Braden,Bristo,Braden James,180,72,R,R,2023-04-13,bristbr01,2023-06-14,brisb001
 20711,harriho02,1996,12,26,Lafayette,USA,LA,,,,,,,Hogan,Harris,Hogan Anthony,230,75,R,L,2023-04-14,harriho03,2023-08-22,harrh002
-20712,cabaljo01,1996,8,30,Panama,Panama,Panama,,,,,,,José,Caballero,José Manuel Ortega,185,69,R,R,2023-04-15,cabaljo01,2023-10-01,cabaj001
+20712,cabaljo01,1996,8,30,Panama,Panama,Panama,,,,,,,Josï¿½,Caballero,Josï¿½ Manuel Ortega,185,69,R,R,2023-04-15,cabaljo01,2023-10-01,cabaj001
 20713,legumca01,1997,6,19,Dallas,USA,TX,,,,,,,Casey,Legumina,Casey Davey,195,74,R,R,2023-04-15,legumca01,2023-09-05,leguc001
 20714,netoza01,2001,1,31,Miami,USA,FL,,,,,,,Zach,Neto,Zachary Adam,185,72,R,R,2023-04-15,netoza01,2023-10-01,netoz001
 20715,soriage01,1999,3,24,San Pedro de Macoris,D.R.,Macoris,,,,,,,George,Soriano,George,210,74,R,R,2023-04-16,soriage01,2023-10-03,sorig001
@@ -20734,7 +20734,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20733,fryda01,1995,11,20,Irving,USA,TX,,,,,,,David,Fry,David James,215,72,R,R,2023-05-01,fryda01,2023-09-24,fry-d001
 20734,edwarxa01,1999,8,9,Mineola,USA,NY,,,,,,,Xavier,Edwards,Xavier James,175,70,B,R,2023-05-02,edwarxa01,2023-10-04,edwax001
 20735,millebr04,1998,8,23,Mount Pleasant,USA,TX,,,,,,,Bryce,Miller,Bryce Austen,180,74,R,R,2023-05-02,millebr04,2023-09-27,millb004
-20736,zuniggu01,1998,10,10,Cartagena,Colombia,Bolivar,,,,,,,Guillermo,Zuñiga,Guillermo Enrique,230,77,R,R,2023-05-02,zuniggu01,2023-08-19,zunig001
+20736,zuniggu01,1998,10,10,Cartagena,Colombia,Bolivar,,,,,,,Guillermo,Zuï¿½iga,Guillermo Enrique,230,77,R,R,2023-05-02,zuniggu01,2023-08-19,zunig001
 20737,irvinja01,1997,2,18,Bloomington,USA,MN,,,,,,,Jake,Irvin,Jacob David,227,78,R,R,2023-05-03,irvinja01,2023-09-21,irvij001
 20738,muckeza01,1995,2,27,Delano,USA,MN,,,,,,,Zach,Muckenhirn,Zachary Edward,205,72,L,L,2023-05-03,muckeza01,2023-06-09,muckz001
 20739,pfaadbr01,1998,10,15,Louisville,USA,KY,,,,,,,Brandon,Pfaadt,Brandon Connor,220,76,R,R,2023-05-03,pfaadbr01,2023-10-30,pfaab001
@@ -20748,7 +20748,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20747,thenju01,2000,2,7,San Francisco de Macoris,D.R.,Macoris,,,,,,,Juan,Then,Juan Manuel,200,73,R,R,2023-05-06,thenju01,2023-05-29,thenj001
 20748,aluja01,1997,4,6,Hamilton,USA,NJ,,,,,,,Jake,Alu,Jacob Philip,186,70,L,R,2023-05-09,aluja01,2023-10-01,alu-j001
 20749,schmica01,1999,3,1,San Diego,USA,CA,,,,,,,Casey,Schmitt,Casey Shawn,215,74,R,R,2023-05-09,schmica01,2023-10-01,schmc003
-20750,perezeu02,2003,4,15,Santiago,D.R.,Santiago,,,,,,,Eury,Pérez,Eury Rafael,220,80,R,R,2023-05-12,perezeu02,2023-09-20,peree004
+20750,perezeu02,2003,4,15,Santiago,D.R.,Santiago,,,,,,,Eury,Pï¿½rez,Eury Rafael,220,80,R,R,2023-05-12,perezeu02,2023-09-20,peree004
 20751,actonga01,1998,6,15,Naperville,USA,IL,,,,,,,Garrett,Acton,Garrett Patrick,215,74,L,R,2023-05-14,actonga01,2023-05-28,actog001
 20752,bradfco01,1998,2,22,Aledo,USA,TX,,,,,,,Cody,Bradford,Cody Daniel,197,76,L,L,2023-05-15,bradfco01,2023-10-31,bradc003
 20753,mclaima01,1999,8,6,Orange,USA,CA,,,,,,,Matt,McLain,Matthew Michael,180,68,R,R,2023-05-15,mclaima01,2023-08-27,mclam001
@@ -20763,7 +20763,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20762,millebo05,1999,4,5,Elk Grove Village,USA,IL,,,,,,,Bobby,Miller,Robert Anthony,220,77,L,R,2023-05-23,millebo06,2023-10-09,millb005
 20763,salazed01,1998,5,5,Cumana,Venezuela,Sucre,,,,,,,Eduardo,Salazar,Eduardo Jose,177,74,R,R,2023-05-24,salazed01,2023-07-01,salae001
 20764,bachmsa01,1999,9,30,Indianapolis,USA,IN,,,,,,,Sam,Bachman,Samuel Duane,235,73,R,R,2023-05-26,bachmsa01,2023-07-03,bachs001
-20765,vasqura02,1998,11,3,Navarette,D.R.,Santiago,,,,,,,Randy,Vásquez,Randy Marcelino,165,72,R,R,2023-05-26,vasqura02,2023-09-29,vasqr001
+20765,vasqura02,1998,11,3,Navarette,D.R.,Santiago,,,,,,,Randy,Vï¿½squez,Randy Marcelino,165,72,R,R,2023-05-26,vasqura02,2023-09-29,vasqr001
 20766,monasan01,1997,5,30,Caracas,Venezuela,Distrito Federal,,,,,,,Andruw,Monasterio,Andruw,186,71,R,R,2023-05-28,monasan01,2023-10-04,monaa001
 20767,joycebe01,2000,9,17,Knoxville,USA,TN,,,,,,,Ben,Joyce,Benjamin Alan,225,77,R,R,2023-05-29,joycebe01,2023-09-30,joycb001
 20768,lasorjo01,1998,4,29,Mount Kisco,USA,NY,,,,,,,Joe,La Sorsa,Joseph Peter,215,77,L,L,2023-05-29,lasorjo01,2023-09-30,lasoj001
@@ -20771,7 +20771,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20770,calvobl01,1996,2,27,Jacksonville,USA,FL,,,,,,,Blair,Calvo,Blair Matthew,195,75,R,R,2023-05-30,calvobl01,2023-05-30,calvb001
 20771,olsonre01,1999,7,31,Gainesville,USA,GA,,,,,,,Reese,Olson,Reese,160,73,R,R,2023-06-02,olsonre01,2023-09-26,olsor001
 20772,hopkitj01,1997,1,16,Summerville,USA,SC,,,,,,,TJ,Hopkins,Mark Timothy,195,73,R,R,2023-06-03,hopkitj01,2023-08-28,hopkt001
-20773,soriajo02,1998,10,20,Santo Domingo,D.R.,Distrito Nacional,,,,,,,José,Soriano,José Joaquin,220,75,R,R,2023-06-03,soriajo02,2023-09-30,sorij002
+20773,soriajo02,1998,10,20,Santo Domingo,D.R.,Distrito Nacional,,,,,,,Josï¿½,Soriano,Josï¿½ Joaquin,220,75,R,R,2023-06-03,soriajo02,2023-09-30,sorij002
 20774,woobr01,2000,1,30,Oakland,USA,CA,,,,,,,Bryan,Woo,Bryan Joseph,205,74,R,R,2023-06-03,woobr01,2023-09-29,woo-b001
 20775,bakerlu01,1997,3,10,Houston,USA,TX,,,,,,,Luken,Baker,Luken Grosvenor,280,76,R,R,2023-06-04,bakerlu01,2023-10-01,bakel001
 20776,smithaj01,2002,11,20,Fort Worth,USA,TX,,,,,,,AJ,Smith-Shawver,AJ,205,75,R,R,2023-06-04,smithaj01,2023-10-11,smita001
@@ -20781,7 +20781,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20780,kessigr01,1997,8,25,Oxford,USA,MS,,,,,,,Grae,Kessinger,Graeber Crawley,204,73,R,R,2023-06-07,kessigr01,2023-10-22,kessg001
 20781,murphch01,1998,6,5,Mission Hills,USA,CA,,,,,,,Chris,Murphy,Christopher Michael,186,73,L,L,2023-06-07,murphch01,2023-09-27,murpc001
 20782,roberni01,1998,7,16,Roanoke,USA,VA,,,,,,,Nick,Robertson,Nicholas Parker,265,78,R,R,2023-06-07,roberni01,2023-10-01,roben002
-20783,lopezjo03,1999,2,15,Santo Domingo,D.R.,Distrito Nacional,,,,,,,José,Lopez,José Alexander,200,73,L,L,2023-06-10,lopezjo04,2023-06-10,lopej006
+20783,lopezjo03,1999,2,15,Santo Domingo,D.R.,Distrito Nacional,,,,,,,Josï¿½,Lopez,Josï¿½ Alexander,200,73,L,L,2023-06-10,lopezjo04,2023-06-10,lopej006
 20784,monteco01,1996,10,7,Miami,USA,FL,,,,,,,Coco,Montes,Robert Patrick,200,73,R,R,2023-06-11,monteco01,2023-07-02,montc002
 20785,adcocty01,1997,2,7,Oxford,USA,NC,,,,,,,Ty,Adcock,Tyler Nathan McKenzie,213,72,R,R,2023-06-12,adcocty01,2023-07-18,adcot001
 20786,jacqujo01,1995,3,11,Shrewsbury,USA,NJ,,,,,,,Joe,Jacques,Joseph,210,76,L,L,2023-06-12,jacqujo01,2023-09-09,jacqj001
@@ -20805,7 +20805,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20804,dubinsh01,1995,9,6,Allegany,USA,NY,,,,,,,Shawn,Dubin,Shawn Anthony,171,73,R,R,2023-06-19,dubinsh01,2023-07-02,dubis001
 20805,hartwgr01,1997,12,18,Detroit,USA,MI,,,,,,,Grant,Hartwig,Grant Alexander,235,77,R,R,2023-06-19,hartwgr01,2023-09-28,hartg002
 20806,kaiseco01,1996,11,20,Shawnee Mission,USA,KS,,,,,,,Connor,Kaiser,Connor William,195,75,R,R,2023-06-19,kaiseco01,2023-06-21,kaisc001
-20807,rodrijo07,2001,5,13,Valverde,D.R.,Valverde,,,,,,,José,Rodriguez,José Augusto,175,71,R,R,2023-06-20,rodrijo09,2023-06-20,rodrj008
+20807,rodrijo07,2001,5,13,Valverde,D.R.,Valverde,,,,,,,Josï¿½,Rodriguez,Josï¿½ Augusto,175,71,R,R,2023-06-20,rodrijo09,2023-06-20,rodrj008
 20808,hamilda03,1997,9,29,San Marcos,USA,TX,,,,,,,David,Hamilton,David Lewis,188,70,L,R,2023-06-21,hamilda03,2023-08-29,hamid002
 20809,williga01,1999,7,26,Fayetteville,USA,NC,,,,,,,Gavin,Williams,Gavin Scott,250,78,L,R,2023-06-21,williga01,2023-09-17,willg004
 20810,waltebr01,1996,9,8,New Castle,USA,DE,,,,,,,Brandon,Walter,Brandon Lee,201,74,L,L,2023-06-22,waltebr01,2023-09-14,waltb002
@@ -20823,11 +20823,11 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20822,ferrejo01,2000,3,3,Maimon,D.R.,Monsenor Nouel,,,,,,,Jose,Ferrer,Jose Alexander,229,73,L,L,2023-07-01,ferrejo01,2023-10-01,ferrj002
 20823,vallich01,1997,3,18,Erie,USA,PA,,,,,,,Chris,Vallimont,Chris Ryan,240,77,R,R,2023-07-03,vallich01,2023-07-03,vallc001
 20824,myersda01,1996,3,8,Columbus,USA,TX,,,,,,,Dane,Myers,Dane Michael,205,72,R,R,2023-07-04,myersda01,2023-09-16,myerd001
-20825,palenda01,2000,2,5,San Carlos,Venezuela,Cojedes,,,,,,,Daniel,Palencia,Daniel Jesús,160,71,R,R,2023-07-04,palenda01,2023-10-01,paled001
+20825,palenda01,2000,2,5,San Carlos,Venezuela,Cojedes,,,,,,,Daniel,Palencia,Daniel Jesï¿½s,160,71,R,R,2023-07-04,palenda01,2023-10-01,paled001
 20826,cowseco01,2000,3,20,Houston,USA,TX,,,,,,,Colton,Cowser,Colton Dale,220,74,L,R,2023-07-05,cowseco01,2023-08-11,cowsc001
 20827,campbis01,1997,8,15,Angra do Heroismo,Portugal,,,,,,,,Isaiah,Campbell,Isaiah Lyn,230,76,R,R,2023-07-07,campbis01,2023-10-01,campi001
 20828,felipan01,1997,8,30,Villa Mella,D.R.,Santo Domingo Norte,,,,,,,Angel,Felipe,Angel Alberto,190,77,R,R,2023-07-07,felipan01,2023-08-14,felia001
-20829,fermijo01,1999,3,29,Puerto Plata,D.R.,Puerto Plata,,,,,,,José,Fermín,José Miguel,200,69,R,R,2023-07-07,fermijo01,2023-10-01,fermj001
+20829,fermijo01,1999,3,29,Puerto Plata,D.R.,Puerto Plata,,,,,,,Josï¿½,Fermï¿½n,Josï¿½ Miguel,200,69,R,R,2023-07-07,fermijo01,2023-10-01,fermj001
 20830,martiju01,2001,7,30,Bonao,D.R.,Cibao,,,,,,,Justin,Martinez,Justin,180,75,R,R,2023-07-07,martiju01,2023-10-01,martj011
 20831,canzodo01,1997,8,16,Cleveland,USA,OH,,,,,,,Dominic,Canzone,Dominic Gene,190,71,L,R,2023-07-08,canzodo01,2023-10-01,canzd001
 20832,uribeab01,2000,6,20,Santo Domingo,D.R.,Distrito Nacional,,,,,,,Abner,Uribe,Abner Brismaury,225,75,R,R,2023-07-08,uribeab01,2023-10-04,uriba001
@@ -20839,7 +20839,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20838,rojasjo03,2000,8,14,San Francisco de Macoris,D.R.,Macoris,,,,,,,Johan,Rojas,Johan Stiven,165,71,R,R,2023-07-15,rojasjo03,2023-10-24,rojaj003
 20839,encarch01,1999,12,1,Walnut Creek,USA,CA,,,,,,,Christian,Encarnacion-Strand,Christian Lee,224,72,R,R,2023-07-17,encarch01,2023-10-01,encac001
 20840,priesqu01,2000,9,16,Glendale Heights,USA,IL,,,,,,,Quinn,Priester,Charles Quinn,210,75,R,R,2023-07-17,priesqu01,2023-09-30,prieq001
-20841,rodrien01,2000,5,26,Santiago,D.R.,Santiago,,,,,,,Endy,Rodríguez,Endy Steven,200,72,B,R,2023-07-17,rodrien01,2023-09-30,rodre006
+20841,rodrien01,2000,5,26,Santiago,D.R.,Santiago,,,,,,,Endy,Rodrï¿½guez,Endy Steven,200,72,B,R,2023-07-17,rodrien01,2023-09-30,rodre006
 20842,kohlwta01,1994,7,20,Holmen,USA,WI,,,,,,,Taylor,Kohlwey,Taylor,200,73,L,L,2023-07-19,kohlwta01,2023-07-28,kohlt001
 20843,speasal01,1998,3,4,Powder Springs,USA,GA,,,,,,,Alex,Speas,Alex JoVaughn,225,75,R,R,2023-07-19,speasal01,2023-07-24,speaa001
 20844,sweetde01,1996,9,6,Greensboro,USA,NC,,,,,,,Devin,Sweet,Devin,183,71,B,R,2023-07-19,sweetde01,2023-09-19,sweed002
@@ -20849,7 +20849,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20848,wallfo01,1995,11,20,Winter Park,USA,FL,,,,,,,Forrest,Wall,Forrest Alexander,195,72,L,R,2023-07-22,wallfo01,2023-10-12,wallf001
 20849,winanal01,1995,8,10,Bakersfield,USA,CA,,,,,,,Allan,Winans,Allan Lee,165,74,R,R,2023-07-22,winanal01,2023-09-29,winaa001
 20850,wolfja01,1999,4,22,Gahanna,USA,OH,,,,,,,Jackson,Wolf,Jackson David,205,79,L,L,2023-07-22,wolfja01,2023-07-22,wolfj001
-20851,hernada03,1996,9,15,Sandino,Cuba,Pinar del Rio,,,,,,,Daysbel,Hernández,Daysbel,220,70,R,R,2023-07-23,hernada03,2023-10-11,hernd005
+20851,hernada03,1996,9,15,Sandino,Cuba,Pinar del Rio,,,,,,,Daysbel,Hernï¿½ndez,Daysbel,220,70,R,R,2023-07-23,hernada03,2023-10-11,hernd005
 20852,willial04,1999,3,12,San Diego,USA,CA,,,,,,,Alika,Williams,Alexander David,180,73,R,R,2023-07-25,willial04,2023-09-24,willa005
 20853,luciama01,2001,9,10,San Francisco de Macoris,D.R.,Macoris,,,,,,,Marco,Luciano,Marco Jose,178,73,R,R,2023-07-26,luciama01,2023-10-01,lucim001
 20854,cronide01,1997,9,24,Glen Ridge,USA,NJ,,,,,,,Declan,Cronin,Declan Evans,225,76,R,R,2023-07-30,cronide01,2023-10-01,crond001
@@ -20859,7 +20859,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20858,meadcu01,2000,10,26,Adelaide,Australia,South Australia,,,,,,,Curtis,Mead,Curtis James,171,72,R,R,2023-08-04,meadcu01,2023-10-04,meadc001
 20859,ruthebl01,1997,5,2,Simi Valley,USA,CA,,,,,,,Blake,Rutherford,Blake Anthony,205,73,L,R,2023-08-04,ruthebl01,2023-09-19,ruthb001
 20860,schneda03,1999,1,26,Berlin,USA,NJ,,,,,,,Davis,Schneider,Davis,190,69,R,R,2023-08-04,schneda03,2023-10-01,schnd001
-20861,tenajo01,2001,3,20,San Cristobal,D.R.,San Cristobal,,,,,,,José,Tena,José Luis,195,71,L,R,2023-08-05,tenajo01,2023-10-01,tenaj001
+20861,tenajo01,2001,3,20,San Cristobal,D.R.,San Cristobal,,,,,,,Josï¿½,Tena,Josï¿½ Luis,195,71,L,R,2023-08-05,tenajo01,2023-10-01,tenaj001
 20862,ramsela01,1996,7,16,Oklahoma City,USA,OK,,,,,,,Lane,Ramsey,Lane Austin,245,81,R,R,2023-08-06,ramsela02,2023-09-29,ramsl001
 20863,richaly01,2000,1,18,Jensen Beach,USA,FL,,,,,,,Lyon,Richardson,Lyon,207,74,B,R,2023-08-06,richaly01,2023-09-06,richl001
 20864,orneljo01,2000,5,26,Glendale,USA,AZ,,,,,,,Jonathan,Ornelas,Jonathan,196,72,R,R,2023-08-07,orneljo01,2023-09-17,ornej001
@@ -20868,7 +20868,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20867,wilsowe01,1994,9,11,High Point,USA,NC,,,,,,,Weston,Wilson,Weston Graham,215,75,R,R,2023-08-09,wilsowe01,2023-10-01,wilsw002
 20868,butlela01,2000,7,10,Burlington,USA,NJ,,,,,,,Lawrence,Butler,Lawrence Evan,210,75,L,R,2023-08-11,butlela01,2023-10-01,butll001
 20869,danneha01,1998,9,30,Newport Beach,USA,CA,,,,,,,Hagen,Danner,Hagen Jarrell,215,73,R,R,2023-08-11,danneha01,2023-08-11,dannh001
-20870,martijp01,1996,3,21,Baracoa,Cuba,Guantanamo,,,,,,,J. P.,Martínez,Julio Pablo,174,68,L,L,2023-08-11,martijp01,2023-09-05,martj012
+20870,martijp01,1996,3,21,Baracoa,Cuba,Guantanamo,,,,,,,J. P.,Martï¿½nez,Julio Pablo,174,68,L,L,2023-08-11,martijp01,2023-09-05,martj012
 20871,ryanry01,1995,5,11,Huntersville,USA,NC,,,,,,,Ryder,Ryan,Ryder Michael,205,74,R,R,2023-08-11,ryanry01,2023-08-11,ryanr002
 20872,basabos01,2000,9,13,Bobures,Venezuela,Sucre,,,,,,,Osleivis,Basabe,Osleivis Jose,188,71,R,R,2023-08-13,basabos01,2023-10-01,basao001
 20873,lopezja04,1998,3,11,Granada Hills,USA,CA,,,,,,,Jacob,Lopez,Jacob,220,76,L,L,2023-08-14,lopezja04,2023-10-01,lopej007
@@ -20893,7 +20893,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20892,cruzst01,1999,6,15,Tenares,D.R.,Hermanas Mirabal,,,,,,,Steven,Cruz,Steven Adalberto,225,79,R,R,2023-08-29,cruzst01,2023-09-30,cruzs001
 20893,mccoyma01,1995,3,31,Peoria,USA,IL,,,,,,,Mason,McCoy,Mason Steven,185,71,R,R,2023-08-30,mccoyma01,2023-09-05,mccom002
 20894,vinesda01,1998,4,30,Oxnard,USA,CA,,,,,,,Darius,Vines,Darius Marque,190,73,R,R,2023-08-30,vinesda01,2023-09-27,vined001
-20895,dominja01,2003,2,7,Esperanza,D.R.,Valverde,,,,,,,Jasson,Domínguez,Jasson,190,69,B,R,2023-09-01,dominja01,2023-09-09,domij003
+20895,dominja01,2003,2,7,Esperanza,D.R.,Valverde,,,,,,,Jasson,Domï¿½nguez,Jasson,190,69,B,R,2023-09-01,dominja01,2023-09-09,domij003
 20896,lipcian01,1998,5,22,Annapolis,USA,MD,,,,,,,Andre,Lipcius,Andre Martinas,190,72,R,R,2023-09-01,lipcian01,2023-09-28,lipca001
 20897,loftini01,1998,9,25,Corpus Christi,USA,TX,,,,,,,Nick,Loftin,Nicholas James,180,71,R,R,2023-09-01,loftini01,2023-09-29,loftn001
 20898,mauriro01,2001,4,4,San Pedro de Macoris,D.R.,Macoris,,,,,,,Ronny,Mauricio,Ronny,166,75,B,R,2023-09-01,mauriro01,2023-10-01,maurr002
@@ -20933,7 +20933,7 @@ ID,playerID,birthYear,birthMonth,birthDay,birthCity,birthCountry,birthState,deat
 20932,venezan01,1997,9,1,Hackettstown,USA,NJ,,,,,,,Anthony,Veneziano,Anthony James,205,77,L,L,2023-09-26,venezan01,2023-09-28,venea001
 20933,bowlajo01,1996,12,1,Arlington,USA,TN,,,,,,,Jonathan,Bowlan,Jonathan,240,78,R,R,2023-09-27,bowlajo01,2023-09-29,bowlj001
 20934,cacerke01,2000,1,26,Santiago,D.R.,Santiago,,,,,,,Kelvin,Caceres,Kelvin Jose,205,73,R,R,2023-09-27,cacerke01,2023-09-30,cacek001
-20935,gomezyo01,1999,10,15,Nirgua,Venezuela,Yaracuy,,,,,,,Yoendrys,Gómez,Yoendrys Adrian,212,75,R,R,2023-09-28,gomezyo01,2023-09-28,gomey002
+20935,gomezyo01,1999,10,15,Nirgua,Venezuela,Yaracuy,,,,,,,Yoendrys,Gï¿½mez,Yoendrys Adrian,212,75,R,R,2023-09-28,gomezyo01,2023-09-28,gomey002
 20936,boushca01,1993,10,1,Hortonville,USA,WI,,,,,,,Caleb,Boushley,Caleb J.,190,75,R,R,2023-09-29,boushca01,2023-09-29,bousc001
 20937,seaglch01,1996,5,23,New Bern,USA,NC,,,,,,,Chandler,Seagle,Chandler Mackenzie,190,70,R,R,2023-09-30,seaglch01,2023-09-30,seagc002
 20938,grifope99,1969,11,28,Miami,USA,FL,,,,,,,Pedro,Grifol,Pedro Orlando,,,,,,grifope99,,grifp801
