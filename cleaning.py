@@ -1,4 +1,5 @@
 import pandas as pd
+import unidecode
 
 # Load the CSV files
 batters_df = pd.read_csv('Batters2.csv')
@@ -7,6 +8,7 @@ injury_report_df = pd.read_csv('injury_report_combined_years_v4.csv')
 
 # Function to reformat 'last_name, first_name' to 'First Last'
 def reformat_name(name):
+    name = unidecode.unidecode(name)
     if pd.isna(name):
         return ''
     last_first = name.split(", ")
