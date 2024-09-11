@@ -1,5 +1,6 @@
 # Import necessary packages
 import pandas as pd
+import sklearn
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
@@ -11,10 +12,12 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import *
+from sklearn.compose import ColumnTransformer
 
+# pd.set_config(transform_output="pandas")
 
-df = pd.read_csv("DATA/creditcard.csv")
-df = df.drop('Time', axis=1)
+df = pd.read_csv("tj_pitching_merge.csv")
+# print(df["pitches"].value_counts())
 print(df.shape)
 df.head()
 
@@ -28,10 +31,13 @@ df.head()
 
 
 # Train Test Split
-y = df['Class']
-X = df.drop('Class', axis=1)
-
+X = df['pitches']
+y = df['No. TJ Surgeries']
+X = X.to_frame()
+y = y.to_frame()
+X
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+print(X_train.info)
 print(X_train.shape)
 print(X_test.shape)
 
@@ -62,31 +68,32 @@ param3['classifier__penalty'] = ['l1', 'l2']
 param3['classifier__class_weight'] = [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
 param3['classifier'] = [clf3]
 
-param4 = {}
-param4['classifier__max_depth'] = [5,10,25,None]
-param4['classifier__min_samples_split'] = [2,5,10]
-param4['classifier__class_weight'] = [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
-param4['classifier'] = [clf4]
+# param4 = {}
+# param4['classifier__max_depth'] = [5,10,25,None]
+# param4['classifier__min_samples_split'] = [2,5,10]
+# param4['classifier__class_weight'] = [None, {0:1,1:5}, {0:1,1:10}, {0:1,1:25}]
+# param4['classifier'] = [clf4]
 
-param5 = {}
-param5['classifier__n_neighbors'] = [2,5,10,25,50]
-param5['classifier'] = [clf5]
+# param5 = {}
+# param5['classifier__n_neighbors'] = [2,5,10,25,50]
+# param5['classifier'] = [clf5]
 
-param6 = {}
-param6['classifier__alpha'] = [10**0, 10**1, 10**2]
-param6['classifier'] = [clf6]
+# param6 = {}
+# param6['classifier__alpha'] = [10**0, 10**1, 10**2]
+# param6['classifier'] = [clf6]
 
-param7 = {}
-param7['classifier__n_estimators'] = [10, 50, 100, 250]
-param7['classifier__max_depth'] = [5, 10, 20]
-param7['classifier'] = [clf7]
+# param7 = {}
+# param7['classifier__n_estimators'] = [10, 50, 100, 250]
+# param7['classifier__max_depth'] = [5, 10, 20]
+# param7['classifier'] = [clf7]
 
 pipeline = Pipeline([('classifier', clf1)])
-params = [param1, param2, param3, param4, param5, param6, param7]
+params = [param1, param2, param3]
 
+#, param4, param5, param6, param7
 # %%time
 # Train the grid search model
-gs = GridSearchCV(pipeline, params, cv=3, n_jobs=-1, scoring='roc_auc').fit(X_train, y_train)
+gs = GridSearchCV(pipeline, params, cv=5, n_jobs=-1, scoring='roc_auc').fit(X_train, y_train)
 
 # Best performing model and its corresponding hyperparameters
 gs.best_params
